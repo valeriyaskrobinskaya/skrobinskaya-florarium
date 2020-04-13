@@ -1,0 +1,38 @@
+html {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/background-florarium.jpg") 100%;
+}
+
+.florarium-description {
+    position: absolute;
+    top: 10em;
+    left: 5em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.florarium-description > p {
+    width: 20em;
+}
+
+.calculate-cost-button {
+    display: block;
+    text-decoration: none;
+    width: 15em;
+    padding: 1em;
+    border: 1px solid #F1BC00;
+    border-radius: 4px;
+    background: #ECB800;
+    text-align: center;
+    color: white;
+}
+.calculate-cost-button:hover {
+    padding: 1em;
+    border: 1px solid white;
+    background: white;
+    color: #ECB800;
+
+}
+
