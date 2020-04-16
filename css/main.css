@@ -1,38 +1,169 @@
-html {
-    width: 100%;
+.first-page {
     height: 100vh;
-    background: url("../img/background-florarium.jpg") 100%;
+    background:no-repeat center/100% url("../img/background-florarium.jpg");
 }
 
-.florarium-description {
+.description {
     position: absolute;
     top: 10em;
-    left: 5em;
+    left: 10em;
+    width: 50em;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
-
-.florarium-description > p {
-    width: 20em;
+.description > h4 {
+    font-size: 1.25em;
+}
+.description > span {
+    border-bottom: 3px solid #ECB800;
+    width: 2em;
 }
 
-.calculate-cost-button {
+.description > p {
+    width: 20em;
+    margin-bottom: 2em;
+}
+
+.button {
     display: block;
     text-decoration: none;
     width: 15em;
     padding: 1em;
     border: 1px solid #F1BC00;
-    border-radius: 4px;
+    border-radius: 8px;
     background: #ECB800;
+    font-size: 1.25em;
     text-align: center;
     color: white;
+    z-index: 1;
 }
-.calculate-cost-button:hover {
+
+.button:hover {
     padding: 1em;
     border: 1px solid white;
     background: white;
     color: #ECB800;
-
 }
+
+
+
+.no-problem {
+    height: 90vh;
+    background-color: white;
+}
+
+.no-problem-header {
+    text-align: center;
+    font-size: 2em;
+}
+
+.florarium-adv {
+    margin-left: 12em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.example {
+    width: 25em;
+}
+
+.advantages-list {
+    margin-left: 5em;
+    display: block;
+    list-style-type: none;
+}
+
+.advantages-list-item {
+    width: 25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.advantages-list-item-icon {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-right: 2em;
+    border: 1px solid #B7DCAA;
+    border-radius: 20px;
+    background-color: #B7DCAA;
+}
+
+.advantages-list-item-icon > img {
+    width: 2em;
+}
+
+.advantages-list-item-description > h5 {
+    font-size: 1em;
+}
+
+
+
+.cats {
+    height: 50vh;
+    background-image: url("../img/cat-backround.jpg");
+}
+
+.cats-description {
+    width: 30em;
+    margin-left: 10em;
+    padding-top: 4em;
+}
+
+.cats-header {
+    font-size: 2em;
+}
+
+.cats-information {
+    font-size: 1em;
+}
+
+
+.interior {
+    height: 100vh;
+    margin-top: 5em;
+    background-color: white;
+}
+
+.interior-solution {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.interior-solution-information {
+    width: 20em;
+}
+
+.interior-solution-information:last-child {
+    margin-left: 0;
+}
+
+.interior-solution-information > h4 {
+    width: 15em;
+    font-size: 1.25em;
+}
+
+.interior-solution-information > h3 {
+    width: 15em;
+    font-size: 1.5em;
+    color: #89BF76;
+}
+
+.interior-solution-information > p {
+    font-size: 1em;
+}
+
+.interior-solution-img {
+    width: 30em;
+}
+
+.consultation {
+    width: 30em;
+    margin: 3em 20em 5em;
+}
+
+
 

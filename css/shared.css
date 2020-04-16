@@ -10,6 +10,7 @@
     top: 0;
     left: 0;
     background-color: #000000;
+    z-index: 10;
 }
 
 .header-info-list {
@@ -44,15 +45,17 @@
 
 .logo-picture {
     display: block;
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    /*height: 2em;*/
     vertical-align: center;
 }
 
 .logo-name {
     display: block;
     float: right;
-    padding: 1em;
+    margin: 0;
+    vertical-align: center;
+    font-size: 2em;
 }
 
 .services-list {
@@ -77,6 +80,14 @@
     border-radius: 4px;
     background-color: #ECB800;
     color: white;
+}
+
+@media (max-width: 900px) {
+    .header-info {
+        display: flex;
+        justify-content: center;
+    }
+    
 }
 
 
