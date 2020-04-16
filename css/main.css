@@ -162,8 +162,35 @@
 
 .consultation {
     width: 30em;
-    margin: 3em 20em 5em;
+    margin: 3em 20em;
 }
 
+
+
+.auction {
+    height: 70vh;
+    margin-top: 15em;
+    background: center url("../img/background-auction.jpg");
+}
+
+.plants-information {
+    float: left;
+    width: 25em;
+    margin-left: 15em;
+    margin-top: 10em;
+    border: 1px solid white;
+    border-radius: 16px;
+    background-color: white;
+    text-align: center;
+}
+
+.plants-information-img {
+    width: 2em;
+    padding-top: 1em;
+}
+
+.plants-information > p {
+    padding-bottom: 1em;
+}
 
 
