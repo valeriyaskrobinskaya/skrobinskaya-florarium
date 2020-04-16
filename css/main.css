@@ -66,6 +66,7 @@
 
 .example {
     width: 25em;
+    height: 25em;
 }
 
 .advantages-list {
@@ -161,7 +162,7 @@
 }
 
 .consultation {
-    width: 30em;
+    width: 20em;
     margin: 3em 20em;
 }
 
@@ -192,5 +193,7 @@
 .plants-information > p {
     padding-bottom: 1em;
 }
+
+
 
 
