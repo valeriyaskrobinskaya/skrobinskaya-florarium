@@ -40,7 +40,6 @@
 }
 
 .button:hover {
-    padding: 1em;
     border: 1px solid white;
     background: white;
     color: #ECB800;
@@ -162,8 +161,8 @@
 }
 
 .consultation {
-    width: 20em;
-    margin: 3em 20em;
+    width: 25em;
+    margin: 3em auto;
 }
 
 
@@ -192,6 +191,108 @@
 
 .plants-information > p {
     padding-bottom: 1em;
+}
+
+
+.achievement {
+    height: 50vh;
+    background-color: #DBDED8;
+}
+
+.achievement-list {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+.achievement-item {
+    box-sizing: border-box;
+    margin-top: 3em;
+}
+
+.achievement-item-logo {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin: 0 auto;
+    border: 1px solid #B7DCAA;
+    border-radius: 20px;
+    background-color: #B7DCAA;
+}
+
+.achievement-item-info {
+    font-size: 1em;
+    display: inline-block;
+    width: 10em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.gallery {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.gallery-header {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.gallery-photo {
+    margin-left: 10em;
+}
+
+.gallery-photo > img {
+    display: inline-block;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+.gallery-photo > img:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    box-shadow:0 0 30px gray;
+    cursor: pointer;
+}
+
+.photo1 , .photo2 , .photo5 {
+    width: 15em;
+}
+
+.photo3, .photo4 {
+    width: 35em;
+}
+
+.link-insta {
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 0.2em;
+    padding-top: 7em;
+    height: 16.5em;
+    position: absolute;
+    border-radius: 4px;
+    font-size: 1em;
+    text-align: left;
+}
+
+.link-insta:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+}
+
+.link-insta:after {
+    content: '\2192';
 }
 
 
